@@ -1,24 +1,53 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
 
-# Models
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (large files)
 *.pt
 *.pth
+*.onnx
+*.pb
+*.weights
+models/
 
 # Videos
 *.mp4
 *.avi
-
-# Pickle files
-*.pkl
-
-# Outputs
-runs/
+*.mov
+*.mkv
+input_videos/
 output_videos/
 
-# Tracker stubs
+# Images in input
+input_videos/*.png
+input_videos/*.jpg
+
+# Pickle / tracker stubs
+*.pkl
 tracker_stubs/
 
-Squash-Ball-Detection-1
-Squash-Court-Keypoint-Detection-3
+# YOLO / training runs
+runs/
+training/Squash-Ball-Detection-1/
+training/Squash-Court-Keypoint-Detection-3/
+training/runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

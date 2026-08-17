@@ -88,7 +88,7 @@ class CourtLineDetector:
                 image,
                 (x, y),
                 6,
-                (0, 0, 255),
+                (0, 165, 255),
                 -1
             )
 
